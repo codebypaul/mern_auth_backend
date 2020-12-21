@@ -10,7 +10,6 @@ const JWT_SECRET = process.env.JWT_SECRET;
 // Models
 const db = require('../models')
 const User = require('../models/User')
-'
 // GET api/users/test (Public)
 router.get('/test', (req, res) => {
     res.json({ msg: 'User endpoint OK!'});
